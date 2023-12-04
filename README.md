@@ -331,6 +331,12 @@ The result should look like the one shown below:
 Our device was recognised with the address "0x3c". This is the standard 
 address for this type of device.
 
+#### Troubleshooting
+If you connected the screen correctly but don't get any output on `i2cdetect -y 1` the baudrate of the I2C is propably wrong.
+To correct this you must edit the boot config file:
+`sudo nano /boot/config.txt`
+Here you must add `dtparam=i2c1_baudrate=50000`, save the file with *Ctrl+O* and exit it with *Ctrl+X*. Afterwards you need to reboot you Pi `sudo reboot now`.
+
 ### Python library <a name="pythonlib"></a>
 For the display of shapes, text and images we will use a Python library. On 
 the current Raspberry Pi OS, Python3, pip3 and git are already preinstalled, but if this is not the case, you can install the whole thing with the 
