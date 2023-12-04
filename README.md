@@ -29,6 +29,7 @@ All linked repositories are maintained and owned by there respective owners and 
 ## Connecting the screen with Atmega328P Board <a name="atmega328p"></a>
 ## Library for Arduino IDE <a name="arduinolib"></a>
 ### Sketch example <a name="sketch"></a>
+The example script written in C can be found [within this repository](https://raw.githubusercontent.com/T4iFooN/0.91-inch-OLED-I2C-Screen/main/arduino_sketch_example.c).
 ## Connecting the screen with Raspberry Pi <a name="connectionraspi"></a>
 ### Enabling the I2C interface <a name="i2cconnection"></a>
 ### Finding I2C adresses <a name="i2cadresses"></a>
