@@ -4,7 +4,7 @@ This is the example provided by AZ-Delivery for the 0.91 inch OLED I2C Screen
 # Disclaimer: 
 This repository is just to provide the exact documentation of AZ-Delivery. It is not maintained nor give I any guarantee on things of this documentation or the code of it.
 I am in no way affiliated or partnered with AZ-Delivery! This repository is just for reference only.
-All linked repositories are maintained and owned by there respective owners and I am not involved in any of them, therefore I am not responsible to damages to your hardware if you use their code wrong or the code is falsy.
+All linked repositories are maintained and owned by their respective owners and I am not involved in any of them, therefore I am not responsible for damages to your hardware if you use their code wrong or the code is falsy.
 
 ## Table of Contents
 1. [Introduction](#introduction)
