@@ -299,6 +299,7 @@ Connect the screen with the Raspberry Pi as shown on the following
 connection diagram:
 
 **Insert image**
+Please be careful not to use the *5V* pin (pin 2) as shown in the image above! It is essential to connect *only* to *3V3* (pin 1).
 
 | Screen pin | Raspberry Pi ping | Physical pin No. | Wire color |
 |------------|-------------------|------------------|------------|
